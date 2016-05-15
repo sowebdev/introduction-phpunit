@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo" tests="2" assertions="2" failures="0" errors="0" time="0.007270">
+    <testsuite name="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part5/tests/PaymentTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.007270">
+      <testcase name="testPaymentCanBeDisabledByConfiguration" class="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part5/tests/PaymentTest.php" line="21" assertions="1" time="0.004750"/>
+      <testcase name="testPaymentIsAllowedByDefault" class="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part5/tests/PaymentTest.php" line="27" assertions="1" time="0.002520"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

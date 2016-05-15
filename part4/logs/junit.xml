@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo" tests="6" assertions="12" failures="0" errors="0" time="0.015350">
+    <testsuite name="Demo\BooleanTest" file="/home/so/Documents/projects/phpunit-examples/part4/tests/BooleanTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.015350">
+      <testsuite name="Demo\BooleanTest::testTruthyValueIsTrue" tests="3" assertions="6" failures="0" errors="0" time="0.009149">
+        <testcase name="testTruthyValueIsTrue with data set #0" assertions="2" time="0.004717"/>
+        <testcase name="testTruthyValueIsTrue with data set #1" assertions="2" time="0.002132"/>
+        <testcase name="testTruthyValueIsTrue with data set #2" assertions="2" time="0.002300"/>
+      </testsuite>
+      <testsuite name="Demo\BooleanTest::testFalsyValueIsFalse" tests="3" assertions="6" failures="0" errors="0" time="0.006201">
+        <testcase name="testFalsyValueIsFalse with data set #0" assertions="2" time="0.002073"/>
+        <testcase name="testFalsyValueIsFalse with data set #1" assertions="2" time="0.002064"/>
+        <testcase name="testFalsyValueIsFalse with data set #2" assertions="2" time="0.002064"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

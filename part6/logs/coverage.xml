@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1463477323">
+  <project timestamp="1463477323">
+    <package name="Demo">
+      <file name="/home/so/Documents/projects/phpunit-examples/part6/src/Config.php">
+        <class name="Config" namespace="Demo">
+          <metrics methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="18" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="__construct" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="method" name="getInstance" crap="6" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="22" type="method" name="get" crap="6" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="30" type="method" name="set" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="method" name="clear" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="39" ncloc="39" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="18" coveredelements="0"/>
+      </file>
+      <file name="/home/so/Documents/projects/phpunit-examples/part6/src/Payment.php">
+        <class name="Payment" namespace="Demo">
+          <metrics methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="10" elements="15" coveredelements="11"/>
+        </class>
+        <line num="9" type="method" name="__construct" crap="1" count="3"/>
+        <line num="11" type="stmt" count="3"/>
+        <line num="12" type="stmt" count="3"/>
+        <line num="13" type="stmt" count="3"/>
+        <line num="15" type="method" name="isAllowed" crap="3.07" count="3"/>
+        <line num="17" type="stmt" count="3"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="3"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="26" type="method" name="pay" crap="2.06" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="10" elements="15" coveredelements="11"/>
+      </file>
+    </package>
+    <metrics files="2" loc="72" ncloc="72" classes="2" methods="8" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="10" elements="33" coveredelements="11"/>
+  </project>
+</coverage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo" tests="2" assertions="2" failures="0" errors="0" time="0.009571">
+    <testsuite name="Demo\BooleanTest" file="/home/so/Documents/projects/phpunit-examples/part3/tests/BooleanTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.009571">
+      <testcase name="testTrueIsNotFalse" class="Demo\BooleanTest" file="/home/so/Documents/projects/phpunit-examples/part3/tests/BooleanTest.php" line="6" assertions="1" time="0.005514"/>
+      <testcase name="testFalseIsNotTrue" class="Demo\BooleanTest" file="/home/so/Documents/projects/phpunit-examples/part3/tests/BooleanTest.php" line="12" assertions="1" time="0.004057"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
