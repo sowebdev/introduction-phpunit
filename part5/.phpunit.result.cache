@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":239:{a:2:{s:7:"defects";a:1:{s:47:"Demo\PaymentTest::testPaymentIsAllowedByDefault";i:3;}s:5:"times";a:2:{s:57:"Demo\PaymentTest::testPaymentCanBeDisabledByConfiguration";d:0.001;s:47:"Demo\PaymentTest::testPaymentIsAllowedByDefault";d:0.001;}}}

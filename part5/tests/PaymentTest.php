@@ -1,19 +1,21 @@
 <?php
 namespace Demo;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers Demo\Payment
  */
-class PaymentTest extends \PHPUnit_Framework_TestCase
+class PaymentTest extends TestCase
 {
     private $payment;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->payment = new Payment(Config::getInstance());
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         Config::getInstance()->clear();
     }
