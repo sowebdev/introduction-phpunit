@@ -1,9 +1,11 @@
 <?php
 namespace Demo;
 
+use PHPUnit\Framework\TestCase;
+
 require_once __DIR__ . '/../src/Boolean.php';
 
-class BooleanTest extends \PHPUnit_Framework_TestCase
+class BooleanTest extends TestCase
 {
     public function testTrueIsNotFalse()
     {
