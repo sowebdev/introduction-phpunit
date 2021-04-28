@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":262:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:3:{s:59:"Demo\PaymentTest::testPaymentIsAllowedWhenBalanceIsPositive";d:0.003;s:62:"Demo\PaymentTest::testPaymentIsNotAllowedWhenBalanceIsNegative";d:0.002;s:49:"Demo\PaymentTest::testPaymentIsSentThroughGateway";d:0.002;}}}

@@ -1,22 +1,24 @@
 <?php
 namespace Demo;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * @covers Demo\Payment
  */
-class PaymentTest extends \PHPUnit_Framework_TestCase
+class PaymentTest extends TestCase
 {
     private $payment;
     private $gateway;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->gateway = $this->getMockBuilder('Demo\GatewayInterface')
             ->getMock();
         $this->payment = new Payment(Config::getInstance(), $this->gateway);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         Config::getInstance()->clear();
     }

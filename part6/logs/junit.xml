@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Demo" tests="3" assertions="3" failures="0" errors="0" time="0.050272">
-    <testsuite name="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part6/tests/PaymentTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.050272">
-      <testcase name="testPaymentIsAllowedWhenBalanceIsPositive" class="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part6/tests/PaymentTest.php" line="24" assertions="1" time="0.023789"/>
-      <testcase name="testPaymentIsNotAllowedWhenBalanceIsNegative" class="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part6/tests/PaymentTest.php" line="30" assertions="1" time="0.006650"/>
-      <testcase name="testPaymentIsSentThroughGateway" class="Demo\PaymentTest" file="/home/so/Documents/projects/phpunit-examples/part6/tests/PaymentTest.php" line="39" assertions="1" time="0.019833"/>
+  <testsuite name="" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.006565">
+    <testsuite name="Demo" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.006565">
+      <testsuite name="Demo\PaymentTest" file="/home/sohnmeiss/projects/introduction-phpunit/part6/tests/PaymentTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.006565">
+        <testcase name="testPaymentIsAllowedWhenBalanceIsPositive" class="Demo\PaymentTest" classname="Demo.PaymentTest" file="/home/sohnmeiss/projects/introduction-phpunit/part6/tests/PaymentTest.php" line="26" assertions="1" time="0.002633"/>
+        <testcase name="testPaymentIsNotAllowedWhenBalanceIsNegative" class="Demo\PaymentTest" classname="Demo.PaymentTest" file="/home/sohnmeiss/projects/introduction-phpunit/part6/tests/PaymentTest.php" line="32" assertions="1" time="0.001674"/>
+        <testcase name="testPaymentIsSentThroughGateway" class="Demo\PaymentTest" classname="Demo.PaymentTest" file="/home/sohnmeiss/projects/introduction-phpunit/part6/tests/PaymentTest.php" line="41" assertions="1" time="0.002259"/>
+      </testsuite>
     </testsuite>
   </testsuite>
 </testsuites>
