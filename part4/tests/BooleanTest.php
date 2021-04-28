@@ -1,7 +1,9 @@
 <?php
 namespace Demo;
 
-class BooleanTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class BooleanTest extends TestCase
 {   
     /**
     * @dataProvider getTruthyValues

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Demo" tests="6" assertions="12" failures="0" errors="0" time="0.015350">
-    <testsuite name="Demo\BooleanTest" file="/home/so/Documents/projects/phpunit-examples/part4/tests/BooleanTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.015350">
-      <testsuite name="Demo\BooleanTest::testTruthyValueIsTrue" tests="3" assertions="6" failures="0" errors="0" time="0.009149">
-        <testcase name="testTruthyValueIsTrue with data set #0" assertions="2" time="0.004717"/>
-        <testcase name="testTruthyValueIsTrue with data set #1" assertions="2" time="0.002132"/>
-        <testcase name="testTruthyValueIsTrue with data set #2" assertions="2" time="0.002300"/>
-      </testsuite>
-      <testsuite name="Demo\BooleanTest::testFalsyValueIsFalse" tests="3" assertions="6" failures="0" errors="0" time="0.006201">
-        <testcase name="testFalsyValueIsFalse with data set #0" assertions="2" time="0.002073"/>
-        <testcase name="testFalsyValueIsFalse with data set #1" assertions="2" time="0.002064"/>
-        <testcase name="testFalsyValueIsFalse with data set #2" assertions="2" time="0.002064"/>
+  <testsuite name="" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.004108">
+    <testsuite name="Demo" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.004108">
+      <testsuite name="Demo\BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" tests="6" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.004108">
+        <testsuite name="Demo\BooleanTest::testTruthyValueIsTrue" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.002087">
+          <testcase name="testTruthyValueIsTrue with data set #0" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="11" assertions="2" time="0.000763"/>
+          <testcase name="testTruthyValueIsTrue with data set #1" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="11" assertions="2" time="0.000625"/>
+          <testcase name="testTruthyValueIsTrue with data set #2" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="11" assertions="2" time="0.000699"/>
+        </testsuite>
+        <testsuite name="Demo\BooleanTest::testFalsyValueIsFalse" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.002021">
+          <testcase name="testFalsyValueIsFalse with data set #0" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="21" assertions="2" time="0.000732"/>
+          <testcase name="testFalsyValueIsFalse with data set #1" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="21" assertions="2" time="0.000613"/>
+          <testcase name="testFalsyValueIsFalse with data set #2" class="Demo\BooleanTest" classname="Demo.BooleanTest" file="/home/sohnmeiss/projects/introduction-phpunit/part4/tests/BooleanTest.php" line="21" assertions="2" time="0.000677"/>
+        </testsuite>
       </testsuite>
     </testsuite>
   </testsuite>

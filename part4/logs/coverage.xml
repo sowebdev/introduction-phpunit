@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1463464298">
-  <project timestamp="1463464298">
-    <package name="Demo">
-      <file name="/home/so/Documents/projects/phpunit-examples/part4/src/Boolean.php">
-        <class name="Boolean" namespace="Demo">
-          <metrics methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
-        </class>
-        <line num="8" type="method" name="__construct" crap="1" count="6"/>
-        <line num="10" type="stmt" count="6"/>
-        <line num="11" type="stmt" count="6"/>
-        <line num="13" type="method" name="isTrue" crap="1" count="6"/>
-        <line num="15" type="stmt" count="6"/>
-        <line num="18" type="method" name="isFalse" crap="1" count="6"/>
-        <line num="20" type="stmt" count="6"/>
-        <metrics loc="21" ncloc="21" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
-      </file>
-    </package>
+<coverage generated="1619638085">
+  <project timestamp="1619638085">
+    <file name="/home/sohnmeiss/projects/introduction-phpunit/part4/src/Boolean.php">
+      <class name="Demo\Boolean" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+      </class>
+      <line num="8" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="10" type="stmt" count="6"/>
+      <line num="11" type="stmt" count="6"/>
+      <line num="13" type="method" name="isTrue" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="15" type="stmt" count="6"/>
+      <line num="18" type="method" name="isFalse" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="20" type="stmt" count="6"/>
+      <line num="22" type="stmt" count="1"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
+    </file>
     <metrics files="1" loc="21" ncloc="21" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="7" coveredelements="7"/>
   </project>
 </coverage>
